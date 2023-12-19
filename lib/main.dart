@@ -68,7 +68,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var selectedIndex = 0; // ← Add this property.
+  var selectedIndex = 2; // ← Add this property.
 
   @override
   Widget build(BuildContext context) {
