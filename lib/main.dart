@@ -94,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: page,
       ),
     );
+    return Scaffold(body: mainArea);
     return Scaffold(
       appBar: AppBar(
         title: Text("Olivia's App"),
