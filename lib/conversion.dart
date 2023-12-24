@@ -54,6 +54,7 @@ class Conversion extends StatefulWidget {
     Fluid(name: "Sunflower Oil", factor: 0.92, icon: Icon(Icons.water_drop)),
     Fluid(name: "Water", factor: 1.0, icon: Icon(Icons.water_drop)),
     Fluid(name: "Milk", factor: 1.04, icon: Icon(Icons.water_drop)),
+    Fluid(name: "Soy Sauce", factor: 1.12, icon: Icon(Icons.water_drop)),
     Fluid(
         name: "Solids",
         factor: 1.00,
