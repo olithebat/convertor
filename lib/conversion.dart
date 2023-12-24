@@ -124,7 +124,7 @@ class _ConversionState extends State<Conversion> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Unit Converter", style: theme.textTheme.headlineMedium),
+            Text("Oli's Unit Converter", style: theme.textTheme.headlineMedium),
             const SizedBox(height: 15),
             Container(
                 decoration: BoxDecoration(
