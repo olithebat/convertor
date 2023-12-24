@@ -342,17 +342,6 @@ class _ConversionState extends State<Conversion> {
                             ))),
                           ),
                           Spacer(),
-                          ElevatedButton.icon(
-                            onPressed: () {},
-                            icon: Icon(Icons.add),
-                            label: Text('Add to list'),
-                            style: ButtonStyle(
-                                shape: MaterialStateProperty.all<
-                                        RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(5.0),
-                            ))),
-                          ),
                         ],
                       ),
                     ],
@@ -420,7 +409,7 @@ class _ConversionListState extends State<ConversionList> {
                 onPressed: () {},
                 icon: Icon(Icons.favorite, size: 12),
                 label: Text(
-                  "${convData.fluid.name}:${convData.val0.toStringAsFixed(2)} ${convData.unitFrom.name} <=> ${convData.val1.toStringAsFixed(2)} ${convData.unitTo.name}",
+                  "${convData.fluid.name}: ${convData.val0.toStringAsFixed(2)} ${convData.unitFrom.name} equals ${convData.val1.toStringAsFixed(2)} ${convData.unitTo.name}",
                   //semanticsLabel: pair.asPascalCase,
                 ),
               ),
